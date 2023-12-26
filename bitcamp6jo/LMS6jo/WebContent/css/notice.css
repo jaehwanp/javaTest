@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+#notContent {
+  width: 1200px;
+  height: 400px;
+  padding: 20px;
+  margin-bottom: 10px;
+  float: left;
+  border: 1px solid #bcbcbc;
+}
+#notContent form{
+	width: 28%;
+	margin: 10px auto;
+	float: right;
+}
+#notContent table{
+	width:80%;
+	margin: 0px auto;
+}
+#notContent table.type11 th:nth-child(1){
+	width: 8%;
+}
+#notContent table.type11 th:nth-child(3){
+	width: 10%;
+}
+#notContent table.type11 th:nth-child(4){
+	width: 15%;
+}
+#notContent table.type11 th:nth-child(5){
+	width: 10%;
+}
+
+table.type11 {
+    border-collapse: collapse;
+    border-spacing: 1px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 20px 10px;
+}
+table.type11 th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+    background: lightblue ;
+}
+table.type11 td {
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #eee;
+}
+
+#nottop>tr>td{
+	background-color: lightcoral;
+}
+
+#notaddbutton{
+	width: 15%;
+	margin: 10px auto;
+	float: right;
+}
+#notaddbutton>div{
+	width: 60px;
+	background-color: lightgray;
+	text-align: center;
+}
+#notaddbutton>div>a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+#notContent .notDetail, .notButton{
+	width: 800px;
+	margin: auto;
+}
+
+#notContent .notDetail:first-child{
+	margin-top: 30px;
+}
+
+.notDetail>div{
+	display: inline-block;
+}
+#notContent .notDetail>div:nth-child(2n-1){
+	background-color: lightgray;
+}
+.notButton{
+	margin: 30px auto;
+	width: 43%;
+	float: right;
+}
+.notButton>div{
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	background-color: lightgray;
+	line-height: 40px;
+	text-align: center;
+}
+.notButton>div>a{
+	text-decoration: none;
+	color: black;
+}
+
+#notaddsub{
+	width: 80%;
+}
+
+
+
+/*subject board area end*/

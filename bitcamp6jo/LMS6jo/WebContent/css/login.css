@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+		#login-container{margin-left: 610px;}
+		#toptable td{height: 60px;}
+        #loginID{width: 350px; height: 35px;}
+        #pw1{width: 350px; height: 35px;}
+        #pw2{width: 350px; height: 35px;}
+        #loginPW{width: 350px; height: 35px;}
+        #loginbtn{
+            border: 1px solid #3498DB;
+            background-color: #3498DB;
+            color: white;
+            font-size: large;
+            font-weight: bold;
+            width:353px;
+            height: 50px;
+            border-radius: 5px;
+        }
+        .atag{text-decoration-line: none; color: dimgray}
+        #pw-anser{width: 350px; height: 35px;}
+        #nextbtn{
+            border: 1px solid #3498DB;
+            background-color: #3498DB;
+            color: white;
+            font-size: large;
+            font-weight: bold;
+            width:353px;
+            height: 50px;
+            border-radius: 5px;
+        }

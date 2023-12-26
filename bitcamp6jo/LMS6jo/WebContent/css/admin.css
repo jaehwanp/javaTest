@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+<!-- jaehwan--->
+
+#lectureList{border: 1px solid black;}
+ #subDdiv{width: 700px;margin: 40px auto;padding: 50px;}
+ #subDdiv>div{border: 1px solid black;}
+ #subDdiv>div>div{}
+ #subDdiv>div>div>div{
+                display: inline-block;
+                width: 100px;
+                height: 40px;
+                line-height:40px;}
+ #subDdiv>div>div>div:nth-child(2n-1){background-color: lightgray;text-align: center;}
+ #subDdiv>div>div>div:nth-child(2n){height: 50px;}
+ #detailcontent{margin: 30px;}
+ #detailbutton{line-height: 50px;text-align: center;}
+ #detailbutton>div{display: inline-block;width: 100px;height: 50px;background-color: lightgray;}
+ #detailbutton>div>a{text-decoration: none;color: black;}
+ #detailbutton>div:hover{background-color: dodgerblue;}
+            
+  #bigsubAdiv{width: 700px;margin: 40px auto;}
+  #bigsubAdiv>h1{margin: auto 280px;}
+  #subAdiv{margin: 50px;}
+  #subAdiv>div>div{display: inline-block;}
+  #subAdiv>div>div:nth-child(2n-1){
+                width: 100px;
+                height: 40px;
+                line-height: 40px;
+                margin: 2px auto;}
+  #subAdiv>div>div:nth-child(2n){width: 300px;}
+  #submitA{float: right;}
+            
+  #bigclsAdiv{width: 1200px;margin: 40px auto;}
+  #bigclsAdiv>h1{margin: auto 450px;}
+  #clsAdiv{margin: auto 50px;}
+  #clsAdiv>div{display: inline-block;}
+  #clsAdiv>div>div{
+                margin: auto 150px;
+                background-color: lightgray;
+                width: 100px;
+                height: 60px;
+                text-align: center;}
+  #clsAdiv>div>.clsAsign{margin-top: 50px;line-height: 60px;}
+  #clsAdiv>div>div>a{
+                text-decoration: none;
+                color: white;
+                font-size: 40px;}
+  #clsAtable1{margin: 40px auto;border-collapse: collapse;}
+            
+ #clsAtable1>thead>tr>th,tbody>tr>td{border: 1px solid black;}
+ #clsAtable2{margin: 40px auto;border-collapse: collapse;}
+            
+#clsAtable2>thead>tr>th,tbody>tr>td{
+ border: 1px solid black;
+ }
+            
+ #bigattendAdiv{width: 1100px; margin: 40px auto;}
+ #bigattendAdiv>h1{margin: auto 486px;}
+ #bigattendAdiv>h2{margin: auto 486px;}
+ #attendAdiv{margin: 50px;}
+ #attendAdiv>div>select{margin: 20px auto;}
+ #attendAdiv>div>a{
+ 	background-color: lightgray;
+	text-decoration: none;
+	color: black;
+	text-align: center;}
+	#attendAdiv>div:nth-child(2n-1){font-size: 20px;}
+    #attendAtable{border-collapse: collapse;
+                text-align: center;}
+    #attendAtable>thead>tr>th{border: 1px solid black;}
+    #attendAtable>thead>tr>th:first-child{width: 60px;}
+    #attendAtable>tbody>tr>td{
+                border: 1px solid black;
+                font-size: 13px;}
+            
+    .clssub{display: inline-block;}
+
+<!-- jaehwan--->
+<!-- 아래로 2ket -->
+#subContent table.detail_type th{width: 10%;}
+
+.beforeClass{display:inline-block;width:400px;float:left;}
+.middle_div{width:100px;}
+.afterClass{display:inline-block;width:400px;float:right;}

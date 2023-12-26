@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+	/*subContent area */
+#subContent {width: 1315px;height: 700px;padding: 20px;margin-bottom: 10px;float: left;text-align: center;border: 1px solid #bcbcbc;background-color: lightgray;}
+
+   /*common area*/
+#subContent h1{font-size: 25px;text-align: center;margin:10px 550px;padding: 10px;color: #FFF;background-color: #007AAE;border-radius: 30px;}
+#subContent .th1{width: 10%;}
+
+/*btn area*/
+.mainT_btn{display: inline-block;padding: 2em 3em;border-radius: 0.35m;letter-spacing: 0.20em;text-decoration: none;font-weight: 400;font-size: 0.90em;
+   color: #FFF;
+   background-color: #8ebebc;
+   border: 0;
+   outline: 0;
+   cursor: pointer;
+}
+
+.mainT_btn:hover{background-color: #9ececc;}
+.mainT_btn2{
+   display: inline-block;
+   padding: 2em 3em;
+   border-radius: 0.35m;
+   letter-spacing: 0.20em;
+   text-decoration: none;
+   font-weight: 400;
+   font-size: 0.90em;
+   color: #FFF;
+   background-color: #e66a00;
+   border: 0;
+   outline: 0;
+   cursor: pointer;
+}
+
+.mainT_btn2:hover{background-color: #ff9f31;}
+
+.mainT_btn>a:link {color:#FFF; text-decoration:none; font-weight: 400; font-size: 0.90em;}
+.mainT_btn>a:visited {color:#FFF; text-decoration:none; font-weight: 400; font-size: 0.90em;} 
+.mainT_btn2>a:link {color:#FFF; text-decoration:none; font-weight: 400; font-size: 0.90em;}
+.mainT_btn2>a:visited {color:#FFF; text-decoration:none; font-weight: 400; font-size: 0.90em;} 
+
+.list_btn{
+   display: inline-block;
+   padding: 0.5em 1em;
+   margin-top:0.2em;
+   margin-left:0.2em;
+   border-radius: 0.35m;
+   letter-spacing: 0.20em;
+   text-decoration: none;
+   font-weight: 400;
+   font-size: 0.90em;
+   color: #FFF;
+   background-color: #8ebebc;
+   border: 0;
+   outline: 0;
+   cursor: pointer;   
+   border-radius:10px;
+}
+.list_btn:hover{
+   background-color: #9ececc;
+}
+.btn_p{text-align:right;}
+.div_select_month{float:right; text-align:right;}
+/*
+input.regist{
+   display: inline-block;
+   padding: 0.5em 1em;
+   margin-top:0.2em;
+   margin-right:0.2em;
+   border-radius: 0.35m;
+   letter-spacing: 0.20em;
+   text-decoration: none;
+   font-weight: 400;
+   font-size: 0.90em;
+   color: #FFF;
+   background-color: #8ebebc;
+   border: 0;
+   outline: 0;
+   cursor: pointer;      
+}
+.regist:hover{
+   background-color: #9ececc;
+}
+*/
+/*btn area end*/
+
+/*subject board area*/
+.list_div{display:inline-block;width:900px;}
+
+#subContent table{width:100%;margin: 0px auto;}
+#subContent table.type11 th:nth-child(1){width: 10%;}
+#subContent table.type11 th.file{width: 10%;}
+#subContent table.type11 th:nth-child(3){width: 10%;}
+#subContent table.type11 th:nth-child(4){width: 10%;}
+#subContent table.type11 th:nth-child(5){width: 10%;}
+
+.list_div table {border-collapse: separate;border-spacing: 1px;text-align: center;line-height: 1.5;margin: 20px 10px;}
+.list_div table th{padding: 8px;font-weight: bold;vertical-align: top;color: #fff;background: lightblue ;}
+.list_div table td{padding: 8px;vertical-align: top;border-bottom: 1px solid #ccc;background: #eee;}
+
+.attend_div table{border-collapse: separate;border-spacing: 1px;text-align: center;line-height: 1;margin: 10px 5px;}
+.attend_div table th{padding: 5px;font-weight: bold;vertical-align: top;color: #fff;background: lightblue ;}
+.attend_div table td{padding: 5px;vertical-align: top;border-bottom: 1px solid #ccc;background: #eee;}
+
+
+table.type11 td.updTd { /*이거 삭제해도 될거같은데 미심쩍어서 일단 둠*/
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #FFF;.
+}
+table.type11 td p {text-align: left}
+#subjectName{float:left;}
+
+/*lmT board area */
+#subContent table.type12 th:nth-child(1){width: 10%;}
+#subContent table.type12 th:nth-child(2){width: 25%;}
+#subContent table.type12 th:nth-child(3){width: 25%;}
+#subContent table.type12 th:nth-child(4){width: 10%;}
+#subContent table.type12 th:nth-child(5){width: 10%;}
+#subContent table.type12 th:nth-child(6){width: 10%;}
+#subContent table.type12 th:nth-child(7){width: 10%;}
+#subContent table.type12 th:nth-child(8){width: 5%;}
+
+#subContent table input{width: 100%;padding:0;}
+
+table{border-collapse: collapse;}
+
+/*qna board area */
+#subContent table{width:100%;margin: 0px auto;}
+#subContent table.type13 th:nth-child(1){width: 10%;}
+#subContent table.type13 th:nth-child(2){width: 10%;}
+#subContent table.type13 th:nth-child(4){width: 10%;}
+#subContent table.type13 th:nth-child(5){width: 10%;}
+#subContent table.type13 th:nth-child(6){width: 10%;}
+#subContent table.type13 th:nth-child(7){width: 10%;}
+
+
+#subContent table.detail_type th{width: 10%;}
+.classA_div{}
+
+#beforeClass{display:block; float:left;width:350px;heigh:400px;}
+#beforeClass>table{width:350px;}
+#middle_div{float:left;width:100px;}
+#afterClass{float:left;width:350px;}
+#afterClass>table{width:350px;}
