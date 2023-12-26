@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="bbs">
+  <select id="selectAll" resultType="com.bit.day07.model.entity.BbsVo">
+    SELECT * FROM BBS ORDER BY NUM DESC
+  </select>
+  <insert id="insertOne" parameterType="com.bit.day07.model.entity.BbsVo">
+  	INSERT INTO BBS (NAME,SUB,CONTENT,NALJA) VALUES (#{name},#{sub},#{content},NOW())
+  </insert>
+  <select id="selectOne" parameterType="Integer" resultType="com.bit.day07.model.entity.BbsVo">
+  	SELECT * FROM BBS WHERE NUM=#{val}
+  </select>
+</mapper>

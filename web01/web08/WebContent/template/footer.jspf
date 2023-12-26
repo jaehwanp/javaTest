@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!-- main end -->
+			</td>
+		</tr>
+		<tr>
+			<td colspan="6">
+				<table>
+					<tr>
+						<td><img src="<%=path %>imgs/logo2.jpg"></td>
+						<td>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>	
+	</table>
